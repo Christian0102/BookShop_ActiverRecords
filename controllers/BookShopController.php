@@ -23,8 +23,17 @@ class BookShopController extends \yii\web\Controller
     }
 
 	public function actionCreate()
-	{
+	{	
+		
 		$book = new Book();
+		if($book->load(Yii::$app->request->post()) && $book->save())
+			{
+				Yii::$app->session->setFlash('success','Data Saved!!');
+				return $this->refresh();	
+				
+			}
+		
+		
 		return $this->render('create',['book'=>$book]);
 	}
 
