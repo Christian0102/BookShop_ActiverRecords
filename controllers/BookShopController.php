@@ -11,15 +11,16 @@ class BookShopController extends \yii\web\Controller
     public function actionIndex()
     {  
 		$this->enableCsrfValidation = false;
-		 $model = new Book();
-		$model->name = 'TEst book';
-		$model->isbn = '3535353';
-		$model->save();
-		echo '<pre>';
-		print_r($model->getErrors());	
-		echo '</pre>';	
+		$conditions = ['publisher_id'=>1];
+		//$bookList = Book::find()->where($conditions)->orderBy('date_published')->limit(2)->all();
+		$bookList = Book::find()->orderBy('date_published')->limit(20)->all();
 		
-        return $this->render('index');
+		
+
+
+
+		
+        return $this->render('index',['result'=>$bookList]);
     }
 
 	public function actionCreate()

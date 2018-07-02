@@ -2,6 +2,7 @@
 
 namespace app\models;
 use yii\db\ActiveRecord;
+use Yii;
 
 
 class Book extends ActiveRecord
@@ -23,8 +24,27 @@ class Book extends ActiveRecord
 			
 		}
 	
+	public function getDatePublished()
+	{
+		
+	return ($this->date_published) ? Yii::$app->formatter->asDate($this->date_published) : "Not Set";	
+	}
 	
-	
+	public function getPublisher()
+	{
+	return $this->hasOne(Publisher::className(),['id'=>'publisher_id'])->one();
+			
+	}
+		
+		public function getPublisherName()
+		{
+		if($publisher)
+			{
+		
+			echo $publisher->name;
+			}	
+			return "Not Set";
+		} 
 }
 
 
