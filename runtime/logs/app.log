@@ -2410,3 +2410,703 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1530542049.147
     'REQUEST_TIME' => 1530542049
 ]
+2018-07-08 14:31:42 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: autorsList' in /opt/lampp/htdocs/lesson/views/author/index.php:5
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/views/author/index.php(5): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 5, Array)
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(336): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\AuthorController))
+#4 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\AuthorController))
+#5 /opt/lampp/htdocs/lesson/controllers/AuthorController.php(22): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\AuthorController->actionIndex()
+#7 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/index', Array)
+#11 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-07-08 14:31:42 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0IELhsMergf@HU9r0ymDQAAAAM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0IELhsMergf@HU9r0ymDQAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33674'
+    'REDIRECT_URL' => '/lesson/web/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531053102.475
+    'REQUEST_TIME' => 1531053102
+]
+2018-07-08 14:47:28 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'yii\base\InvalidArgumentException' with message 'Attribute name must contain word characters only.' 
+
+in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/helpers/BaseHtml.php:2240
+
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/helpers/BaseHtml.php(1322): yii\helpers\BaseHtml::getInputName(Object(app\models\Author), '')
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/helpers/BaseHtml.php(1377): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Author), '', Array)
+#2 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/widgets/ActiveField.php(404): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Author), '', Array)
+#3 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/widgets/ActiveField.php(204): yii\widgets\ActiveField->textInput()
+#4 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#5 /opt/lampp/htdocs/lesson/views/author/create.php(9): yii\widgets\ActiveField->__toString()
+#6 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(336): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#8 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\AuthorController))
+#9 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('create', Array, Object(app\controllers\AuthorController))
+#10 /opt/lampp/htdocs/lesson/controllers/AuthorController.php(11): yii\base\Controller->render('create', Array)
+#11 [internal function]: app\controllers\AuthorController->actionCreate()
+#12 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#15 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/create', Array)
+#16 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#18 {main}' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/ErrorHandler.php:317
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/ErrorHandler.php(317): trigger_error('<span class="st...', '<span class="nu...')
+#2 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidArgumentException))
+#3 /opt/lampp/htdocs/lesson/views/author/create.php(9): yii\widgets\ActiveField->__toString()
+#4 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(336): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\controllers\AuthorController))
+#7 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\controllers\AuthorController))
+#8 /opt/lampp/htdocs/lesson/controllers/AuthorController.php(11): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\controllers\AuthorController->actionCreate()
+#10 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#11 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#12 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#13 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#14 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#16 {main}
+    in /opt/lampp/htdocs/lesson/views/author/create.php:9
+    in /opt/lampp/htdocs/lesson/controllers/AuthorController.php:11
+2018-07-08 14:47:28 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0IH4IiZ@v98lLKLQht4hAAAAAo'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0IH4IiZ@v98lLKLQht4hAAAAAo'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33886'
+    'REDIRECT_URL' => '/lesson/web/author/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/create'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531054048.498
+    'REQUEST_TIME' => 1531054048
+]
+2018-07-08 14:51:55 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in /opt/lampp/htdocs/lesson/views/author/index.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-08 14:51:55 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0II68AsiLg97gnWwYJPBwAAAAg'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0II68AsiLg97gnWwYJPBwAAAAg'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33890'
+    'REDIRECT_URL' => '/lesson/web/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531054315.608
+    'REQUEST_TIME' => 1531054315
+]
+2018-07-08 14:59:23 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\Yii' not found' in /opt/lampp/htdocs/lesson/controllers/AuthorController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-08 14:59:22 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SFT1P1pzFY-AIo8nWsGdUbDk5a16T8-bDG51pgMUtUwDGZ9tHDRt361m9X4Ytt8-h56GwlcqnPU_XzfRWyPBIA=='
+    'Author' => [
+        'first_name' => 'Tinica'
+        'last_name' => 'Cristian'
+        'birthdate' => ''
+        'rating' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0IKqn2WYIyrPA78B5zSWwAAAAY'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0IKqn2WYIyrPA78B5zSWwAAAAY'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/lesson/web/author/create'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '202'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33924'
+    'REDIRECT_URL' => '/lesson/web/author/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/create'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531054762.95
+    'REQUEST_TIME' => 1531054762
+]
+2018-07-08 14:59:47 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "author/author/index".' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/author/i...', Array)
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-08 14:59:47 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0IKw4iZ@v98lLKLQht4hgAAAAo'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0IKw4iZ@v98lLKLQht4hgAAAAo'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/lesson/web/author/create'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33928'
+    'REDIRECT_URL' => '/lesson/web/author/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531054787.16
+    'REQUEST_TIME' => 1531054787
+]
+2018-07-08 15:00:29 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "author/author/index".' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/author/i...', Array)
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-08 15:00:29 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0IK7ZAcpSgHWFMHK0aUIQAAAAk'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0IK7ZAcpSgHWFMHK0aUIQAAAAk'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33930'
+    'REDIRECT_URL' => '/lesson/web/author/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531054829.03
+    'REQUEST_TIME' => 1531054829
+]
+2018-07-08 15:00:31 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "author/author/index".' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/author/i...', Array)
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-08 15:00:31 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0IK75AcpSgHWFMHK0aUIwAAAAk'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0IK75AcpSgHWFMHK0aUIwAAAAk'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33930'
+    'REDIRECT_URL' => '/lesson/web/author/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531054831.484
+    'REQUEST_TIME' => 1531054831
+]
+2018-07-08 15:00:35 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "author/author/index".' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/author/i...', Array)
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-08 15:00:35 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0IK85AcpSgHWFMHK0aUJQAAAAk'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0IK85AcpSgHWFMHK0aUJQAAAAk'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33930'
+    'REDIRECT_URL' => '/lesson/web/author/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531054835.066
+    'REQUEST_TIME' => 1531054835
+]
+2018-07-08 15:03:50 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: author' in /opt/lampp/htdocs/lesson/views/author/index.php:14
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/views/author/index.php(14): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 14, Array)
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(336): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\AuthorController))
+#4 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\AuthorController))
+#5 /opt/lampp/htdocs/lesson/controllers/AuthorController.php(30): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\AuthorController->actionIndex()
+#7 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/index', Array)
+#11 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-07-08 15:03:50 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0ILts6jLqaLsB-dzXjMzgAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0ILts6jLqaLsB-dzXjMzgAAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33938'
+    'REDIRECT_URL' => '/lesson/web/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531055030.004
+    'REQUEST_TIME' => 1531055030
+]
+2018-07-08 15:04:12 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: author' in /opt/lampp/htdocs/lesson/views/author/index.php:14
+Stack trace:
+#0 /opt/lampp/htdocs/lesson/views/author/index.php(14): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/opt/lampp/htdo...', 14, Array)
+#1 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(336): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(app\controllers\AuthorController))
+#4 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\AuthorController))
+#5 /opt/lampp/htdocs/lesson/controllers/AuthorController.php(30): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\AuthorController->actionIndex()
+#7 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('author/index', Array)
+#11 /opt/lampp/htdocs/lesson/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/lesson/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2018-07-08 15:04:12 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0ILzPNdRHJ4tkys1a@hpwAAAAs'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0ILzPNdRHJ4tkys1a@hpwAAAAs'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '33940'
+    'REDIRECT_URL' => '/lesson/web/author/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author/index'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531055052.324
+    'REQUEST_TIME' => 1531055052
+]
