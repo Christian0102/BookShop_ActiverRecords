@@ -39,6 +39,7 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'Publisher', 'url' => ['/publisher/index']],
             ['label' => 'Authors', 'url' => ['/author/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],

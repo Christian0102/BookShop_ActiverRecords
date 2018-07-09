@@ -3110,3 +3110,123 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1531055052.324
     'REQUEST_TIME' => 1531055052
 ]
+2018-07-09 16:56:09 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\controllers\findOne()' in /opt/lampp/htdocs/lesson/controllers/AuthorController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-09 16:56:09 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0N3iW6CfuTOCZGIiLl5VAAAAAM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0N3iW6CfuTOCZGIiLl5VAAAAAM'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/lesson/web/author/index'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '36272'
+    'REDIRECT_URL' => '/lesson/web/author/update'
+    'REDIRECT_QUERY_STRING' => 'id=5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/lesson/web/author/update?id=5'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531148169.146
+    'REQUEST_TIME' => 1531148169
+]
+2018-07-09 17:02:10 [::1][-][7e7dcrilsrain6vk4u98n3srg1][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare app\controllers\AuthorController::actionDelete()' in /opt/lampp/htdocs/lesson/controllers/AuthorController.php:42
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-07-09 17:02:10 [::1][-][7e7dcrilsrain6vk4u98n3srg1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-2e3a9c8' => 'a4e68c9f-38d8-487f-9a59-f9fd886f6639'
+    'PHPSESSID' => '7e7dcrilsrain6vk4u98n3srg1'
+    '_csrf' => 'ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W0N48gx0LzsJIUmbP7cpVgAAAAg'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W0N48gx0LzsJIUmbP7cpVgAAAAg'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Phpstorm-2e3a9c8=a4e68c9f-38d8-487f-9a59-f9fd886f6639; PHPSESSID=7e7dcrilsrain6vk4u98n3srg1; _csrf=ad8c4f4c78c1d7edd7eacf8a748b6ae09897a17c90ba7b0bf39b49154fcbd037a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KMjRFGxP-DzYBwBo7zco-eSn31BwX7tl%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/5.6.36 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/lesson/web/index.php'
+    'REMOTE_PORT' => '36286'
+    'REDIRECT_URL' => '/lesson/web/author'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/lesson/web/author'
+    'SCRIPT_NAME' => '/lesson/web/index.php'
+    'PHP_SELF' => '/lesson/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1531148530.062
+    'REQUEST_TIME' => 1531148530
+]
