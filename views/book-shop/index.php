@@ -1,14 +1,14 @@
 <?php
-
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 ?>
 <h1>/book-shop/index</h1>
 
-<p>
-    You may change the content of th;is page by modifying
-    the file <code><?= __FILE__; ?></code>.
-</p>
+<a href="<?php echo Url::to(['create'])?>" class="btn btn-primary">Create Book</a>
+<br>
+</br>
+
 <?php foreach ($result as $book):?>
 
 <div class="col-md-10">

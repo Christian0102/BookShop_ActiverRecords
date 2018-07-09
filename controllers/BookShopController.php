@@ -3,7 +3,7 @@
 namespace app\controllers;
 use Yii;
 use app\models\Book;
-
+use app\models\Publisher;
 
 class BookShopController extends \yii\web\Controller
 {
@@ -27,6 +27,7 @@ class BookShopController extends \yii\web\Controller
 	{	
 		
 		$book = new Book();
+		$publisher = Publisher::getList();
 		if($book->load(Yii::$app->request->post()) && $book->save())
 			{
 				Yii::$app->session->setFlash('success','Data Saved!!');
@@ -35,7 +36,7 @@ class BookShopController extends \yii\web\Controller
 			}
 		
 		
-		return $this->render('create',['book'=>$book]);
+		return $this->render('create',['book'=>$book,'publisher'=>$publisher]);
 	}
 
 }
