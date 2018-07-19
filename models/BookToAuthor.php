@@ -27,3 +27,4 @@ class BookToAuthor extends \yii\db\ActiveRecord
         ];
     }
 }
+?>
